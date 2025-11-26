@@ -19,7 +19,7 @@ public class DoctorController {
 
     @GetMapping("/appointments")
     public ResponseEntity<List<AppointmentResponseDto>> getAllAppointmentsOfDoctor() {
-        return ResponseEntity.ok(appointmentService.getAllAppointmentsOfDoctor(1L));
+        return ResponseEntity.ok(appointmentService.getAllAppointmentsOfDoctor(2L));
     }
 
 }
